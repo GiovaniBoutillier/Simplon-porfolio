@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Bungasai;
+  src:url("../FONT/Bungasai.ttf");
+}
+
+
+html {
+      background-color:#D2D2CB;;
+      background-image: url("../IMG/img.jpg");
+      background-size: 1400px 300px;
+      background-repeat:no-repeat;
+      background-position: top;
+  }
+
+/***********************/
+/******NAVBAR**********/
+/*********************/
+
+#nav {
+  background-color: #6F6E6E;
+  font-size: 10px;
+  font-family: sans-serif;
+
+}
+
+
+#nav li {
+  display: inline;
+	list-style: none;
+  margin: 85px;
+}
+
+#nav a {
+  color:black;
+  background-color:#D2D2CB;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 42px;
+  border: 1px solid black;
+
+}
+
+nav {
+  margin-top: 25px;
+  margin-right:50px;
+  margin-left: 50px;
+  background-color:#6F6E6E;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+
+#prenom {
+  text-shadow: white 1px 1px, white -1px 1px, white -1px -1px,white 1px -1px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+/********************/
+/**Portfiolio****/
+/*****************/
+
+
+h1 {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  font-family:Bungasai;
+}
+
+
+#portfolio {
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap; /*valeur par défaut : nowrap*/
+        justify-content:space-around; /*horizontal*/
+        align-content: space-around; /*vertical*/
+}
+#portfolio div{
+      height: 300px;
+      width: 500px;
+      background-color :#6F6E6E;
+      text-align: center;
+
+}
+
+#portfolio img {
+        height: 300px;
+        width: 500px;
+        border: 1px solid black;
+
+
+}
+
+/***********************/
+/*****A PROPOS*********/
+/********************/
+
+#about p {
+        font-size: 30px;
+        text-align: center;
+        font-family:Bungasai;
+
+ }
+
+/*********************/
+/*****Contact*******/
+/*****************/
+
+#formulaire {
+          padding: 15px;
+          background-image:url("../IMG/photographie_noir_blanc_infinity.jpg");
+          background-position: center;
+          background-size: cover;
+          background-color: #6F6E6E;
+          text-align: center;
+          color: black;
+          text-shadow: white 1px 1px, white -1px 1px, white -1px -1px,white 1px -1px;
+
+
+}
+
+#formulaire img { 
+          border: 1px solid black;
+          height:300px;
+          width: 300px;
+
+}
+
+#contact {
+
+        font-size: :25px
+        font-family: Bungasai;
+        color: black;
+}
+
+
+
+/************************/
+/*******Footer*********/
+/********************/
+
+footer {
+  bottom:0;
+  height:30px;
+  background:#6F6E6E;
+  text-align: center;
+  text-decoration: none;
+}
